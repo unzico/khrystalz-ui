@@ -1,0 +1,18 @@
+{
+    "title": "Khrystalz UI Theme",
+    "name": "khrystalz-ui",
+    "description": "Inspired by 'One Dark Theme'.",
+    "homepage": "https://github.com/khrystalz/khrystalz-ui.git",
+    "version": "1.0.0",
+    "author": "khrystalz (https://github.com/khrystalz)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.1.0"
+    },
+    "theme": {
+        "file": "main.css",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "khrystalz", "dark", "neon", "sass"]
+}
