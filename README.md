@@ -1,5 +1,7 @@
-Khrystalz UI Theme - A Minimal, Dark Theme for Brackets.
+Khrystalz UI Theme
 ==============================================
 
+A minimal dark theme for Brackets.
+
 ## JavaScript
-![alt text](https://raw.githubusercontent.com/aaronmkenny7/ROG-Dark-Theme/master/screenshots/javascript.jpg "Khrystalz UI Theme JavaScript")
+![alt text](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/javascript.jpg "Khrystalz UI Theme JavaScript")
