@@ -7,8 +7,8 @@ Khrystalz UI Theme
 ### Recommended Extensions:
 I recommend using following extensions to enhance your Brackets UI.
 
-- [**Brackets Git**](https://github.com/zaggino/brackets-git): Provides Git integration for Brackets
-- [**Brackets Snippets**](https://github.com/chuyik/brackets-snippets): Imitate snippets feature of Sublime Text
+- [**Brackets Git**](https://github.com/zaggino/brackets-git): Provides Git integration for Brackets.
+- [**Brackets Snippets**](https://github.com/chuyik/brackets-snippets): Imitate snippets feature of Sublime Text.
 - [**Brackets Indent Guides**](https://github.com/lkcampbell/brackets-indent-guides): Show indent guides in the code editor.
 - [**Brackets SASShints**](https://github.com/konstantinkobs/brackets-SASShints): Autocompletion for SASS/SCSS variables.
 
@@ -21,6 +21,9 @@ I recommend using following extensions to enhance your Brackets UI.
 
 ## SASS
 ![alt text](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/sass.jpg "Khrystalz UI Theme SASS")
+
+## Markdown
+![alt text](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/markdown.jpg "Khrystalz UI Theme Markdown")
 
 ## JavaScript
 ![alt text](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/javascript.jpg "Khrystalz UI Theme JavaScript")
