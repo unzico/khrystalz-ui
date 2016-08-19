@@ -53,6 +53,13 @@ span.cm-variable-3  { color: #64B6C3; }
 .cm-m-javascript.cm-string      { color: #98C379; }
 .cm-m-javascript.cm-variable-2  { color: #6CAFF2; }
 
+/* PHP */
+
+.cm-variable-2 {
+    color: rgb(50, 185, 50)
+}
+
+
 /* Editor */
 
 .CodeMirror {
