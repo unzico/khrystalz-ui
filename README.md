@@ -1,10 +1,9 @@
-Khrystalz UI Theme
-==============================================
+# Khrystalz UI Theme
 
 > A minimal dark theme for Brackets.
 
 
-### Recommended Extensions:
+## Recommended Extensions:
 I recommend following extensions to enhance your Brackets UI.
 
 - [**Brackets Git**](https://github.com/zaggino/brackets-git): Provides Git integration for Brackets
@@ -13,15 +12,16 @@ I recommend following extensions to enhance your Brackets UI.
 - [**Brackets SASShints**](https://github.com/konstantinkobs/brackets-SASShints): Autocompletion for SASS/SCSS variables.
 
 
-### Supported Languages:
+## Supported Languages:
 - **HTML, XML**
 - **Markdown**
-- **CSS, SCSS, SASS**
+- **(S)CSS, LESS, SASS**
 - **JavaScript**
 - **PHP**
 
-## SASS
-![alt text](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/sass.jpg "Khrystalz UI Theme SASS")
+## Preview (outdated)
+### SASS
+![SASS Styling Screenshot](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/sass.jpg "Khrystalz UI Theme SASS")
 
-## JavaScript
-![alt text](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/javascript.jpg "Khrystalz UI Theme JavaScript")
+### JavaScript
+![JavaScript Styling Screenshot](https://raw.githubusercontent.com/khrystalz/khrystalz-ui/master/screenshots/javascript.jpg "Khrystalz UI Theme JavaScript")

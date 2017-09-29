@@ -1,0 +1,236 @@
+// Variables
+// Base Colors
+$grey-light: #abb2bf
+$grey-light-blue: #94a6c7
+$grey-dark: #7d889c
+$red: #d86c74
+$blue: #6caff2
+$green: #98c379
+$orange: #cd9a61
+$cyan: #69d6ac
+$yellow: #ffdd53
+
+// Specific
+$error: #ff4d66
+$comment: #5a6271
+$background: #282c34
+$search-all: #93f2b9
+$search-match: #ff8b5e
+
+/* General */
+span
+  &.cm-comment
+    color: $comment
+  &.cm-error
+    color: $error
+  &.cm-header
+    color: $grey-light
+  &.cm-link
+    color: $green
+  &.cm-meta
+    color: $grey-light
+  &.cm-string-2
+    color: $green
+  &.cm-variable
+    color: $grey-light
+  &.cm-variable-3
+    color: #64B6C3
+    
+/* CSS, LESS */
+.cm-m-css
+  &.cm-atom
+    color: $grey-dark
+  &.cm-def
+    color: $cyan
+  &.cm-builtin,
+  &.cm-attribute,
+  &.cm-variable-2
+    color: $blue
+  &.cm-number,
+  &.cm-string
+    color: $green
+  &.cm-property
+    color: $grey-light
+  &.cm-qualifier,
+  &.cm-tag
+    color: $red
+  &.cm-keyword
+    color: $blue
+  &.cm-variable-3
+    color: $orange
+
+/* SASS */
+.cm-m-sass
+  &.cm-def
+    color: $orange
+  &.cm-tag
+    color: $red
+  &.cm-atom,
+  &.cm-attribute,
+  &.cm-keyword,
+  &.cm-builtin,
+  &.cm-operator
+    color: $grey-dark
+  &.cm-number,
+  &.cm-string
+    color: $green
+  &.cm-property
+    color: $grey-light
+  &.cm-qualifier
+    color: $red
+  &.cm-variable-2,
+    color: $cyan
+  &.cm-variable-3
+    color: $orange
+
+/* HTML, XML */
+.cm-m-xml
+  color: $grey-light
+  &.cm-meta
+    color: $cyan
+  &.cm-tag.cm-bracket
+    color: $grey-dark
+  &.cm-attribute
+    color: $blue
+  &.cm-string
+    color: $green
+  &.cm-tag
+    color: $red
+  &.cm-atom
+    color: $red
+
+/* Javascript */
+.cm-m-javascript
+  &.cm-atom,
+  &.cm-number,
+  &.cm-string
+    color: $green
+  &.cm-def
+    color: $cyan
+  &.cm-keyword
+    color: $red
+  &.cm-operator
+    color: $grey-light
+  &.cm-property
+    color: $grey-light-blue
+  &.cm-variable-2
+    color: $blue
+
+/* PHP */
+.cm-m-clike
+  &.cm-atom,
+  &.cm-number,
+  &.cm-string
+    color: $green
+  &.cm-keyword
+    color: $red
+  &.cm-operator
+    color: $grey-light
+  &.cm-def
+    color: $cyan
+  &.cm-builtin
+    color: $grey-light-blue
+  &.cm-variable-2
+    color: $blue
+
+/* Markdown */
+.cm-m-markdown
+  color: $grey-light
+  &.cm-quote,
+  &.cm-comment
+    color: $grey-light-blue
+  &.cm-header
+    color: $red !important
+  &.cm-image-marker
+    color: $yellow !important
+  &.cm-link.cm-variable-2
+    color: $grey-dark
+  &.cm-strong
+    color: $cyan !important
+  &.cm-image-alt-text
+    color: $orange !important
+  &.cm-string
+    color: $green !important
+  &.cm-variable-2
+    color: $grey-light
+  &.cm-link
+    color: $blue
+    &.cm-variable-2
+      color: $blue
+
+/* Editor */
+.CodeMirror
+  line-height: 1.4
+
+.CodeMirror-vscrollbar,
+.CodeMirror-hscrollbar
+  background-color: $background
+  
+.CodeMirror-scroll
+  background: #23262c
+  color: $grey-dark
+
+.CodeMirror-cursor
+  border-left: 1px solid $yellow !important
+
+.CodeMirror-overwrite
+  .CodeMirror-cursor
+    border-bottom: 1px solid #528BFF !important
+    border-left: none !important
+
+.CodeMirror-gutters
+  background: #23262c
+  border-right: 1px solid #23262c
+
+.CodeMirror-foldmarker
+  border: 1px solid #464C59
+  background-color: $background
+
+.CodeMirror-linenumber
+  color: $comment
+
+.CodeMirror-selected
+  background: #3E4451 !important
+
+/* Matching */
+.CodeMirror-matchingbracket
+  background: #38404C !important
+  border-bottom: 1px solid $blue !important
+  color: $grey-light !important
+
+.CodeMirror-matchingtag
+  background: #38404C !important
+
+/* Active Line */
+.CodeMirror-focused 
+  .CodeMirror-activeline
+    .CodeMirror-nonmatchingbracket
+      color: #ff0076 !important
+      
+    .CodeMirror-gutter-elt
+      color: $grey-light
+      background-color: lighten($background, 5%)
+
+    .CodeMirror-activeline-gutter
+      background-color: lighten($background, 5%)
+      border-bottom: 1px solid $yellow
+      
+.CodeMirror-activeline-background
+  background: #23262c !important
+
+/* Searching */
+.CodeMirror-searching
+  background-color: $search-all
+  color: #000 !important
+
+.CodeMirror-searching
+  &.searching-current-match
+    background-color: $search-match
+
+/* Non-editor styling */
+#image-holder,
+#not-editor
+  background-color: $background
+
+#image-holder
+  color: $background
