@@ -4,7 +4,7 @@
 
 
 ## Recommended Extensions:
-I recommend following extensions to enhance your Brackets UI.
+I recommend the following extensions to enhance your Brackets UI.
 
 - [**Brackets Git**](https://github.com/zaggino/brackets-git): Provides Git integration for Brackets.
 - [**Brackets Snippets**](https://github.com/chuyik/brackets-snippets): Imitate snippets feature of Sublime Text.
