@@ -1,3 +1,5 @@
+No longer maintained.
+
 # Khrystalz UI Theme
 
 > A minimal dark theme for Brackets.
